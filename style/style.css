@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Prosto+One&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../fonte/ProstoOne-Regular.ttf");
+}
+
+header {
+    height: 20vh;
+    background-color: #202021;
+    margin: -8px;
+    margin-top: -20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+
+header #logo-titulo {
+    font-family: 'FonteLogo';
+}
+
+body {
+    background-color: #272727;
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu ul {
+    display: inline;   
+}
+
+#menu li {
+    display: inline;
+    left: 100px;
+}
+
+#menu ul li a {
+    font-family: 'FonteLogo';
+    text-decoration: none;
+    color: #f1e702;
+}
+
+#rodape {
+    text-align: center;
+    font-style: italic;
+    color: #f1e702;
+}
+
+#cor-rodape {
+    color: #f1e702;
+    text-decoration: none;
+}
+
+#cor-rodape:hover{
+    color: red;
+    transition: 0.8s;
+    text-decoration: none;
+}
