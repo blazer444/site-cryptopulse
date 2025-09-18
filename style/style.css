@@ -8,11 +8,7 @@
 body {
   margin: 0;
   color: rgb(251, 255, 3);
-  background-image: url(../imagens/criptomoedas-background.jpg);
-  background-color: rgba(0,0,0,.5);
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
+  background-color: #202021;
 }
 
 .cabecalho {
@@ -41,6 +37,14 @@ body {
   font-family: 'FonteLogo';
   font-size: 24px;
   margin: 0;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.titulo:hover {
+  color: rgb(251, 255, 3);
+  transition: 0.3s ease;
+  text-shadow: 0 0 8px rgb(251, 255, 3);
 }
 
 /* MENU */
@@ -75,12 +79,32 @@ body {
   height: 550px;
   height: 550px;
   padding: 30px;
+  display: inline-block;
+  overflow: hidden;
+  transition: transform .7s ease-in-out;
 }
+
+.bitcoin img {
+  display: block;
+  transition: transform 0.5s ease;
+  transform-origin: center
+}
+
+.bitcoin:hover img{
+  transform: rotate(360deg);
+}
+
+/* RODAPE */
 
 .rodape {
   text-align: center;
   font-style: italic;
   color: #f1e702;
+  background-color: #202021;
+  margin: 30px 0px -30px 0;
+  padding: 20px;
+  border-bottom: 0px 0px 0px 2px solid;
+  box-shadow: 0px 0px 0px 2px rgba(59, 58, 58, 0.8);
 }
 
 .cor-rodape {
