@@ -6,9 +6,11 @@
 }
 
 body {
-  margin: 0;
-  color: rgb(251, 255, 3);
+  font-family: Arial, sans-serif;
   background-color: #202021;
+  color: #ffd700;
+  text-align: center;
+  padding: 20px;
   transition: .5s;
 }
 
@@ -76,11 +78,77 @@ body {
 }
 
 .menu a:hover {
-  color: red;
-  text-shadow: 0 0 8px red;
+  color: #ff0000;
+  text-shadow: 0 0 8px #ff0000;
 }
 
-/* BODY */
+/* CALCULADORA */
+
+.calculadora {
+  width: 600px;
+  margin: 60px auto;
+  padding: 25px;
+  background: #f2f2f2;
+  border-radius: 12px;
+}
+
+
+.calculadora h2 {
+  text-align: center;
+  color: #ffcc00;
+  font-size: 40px;
+  margin-bottom: 25px;
+  transition: 0.3s ease;
+}
+
+.calculadora h2:hover {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 25px;
+  transition: 0.3s ease;
+  color: #ff0000;
+  text-shadow: 0 0 8px #ff0000;
+}
+
+.calculadora label {
+  font-weight: bold;
+  margin-right: 140px;
+  color: #222;
+}
+
+.calculadora select,
+.calculadora input {
+  padding: 10px 14px;
+  margin: 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 17px;
+  width: 220px;
+  transition: border-color 0.2s ease;
+  text-align: center;
+}
+
+.calculadora button {
+  display: block;
+  background: #ffcc00;
+  color: #111;
+  border: none;
+  padding: 12px 20px;
+  margin: 20px auto 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#resultado {
+  margin-top: 25px;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: bold;
+  color: #f1e702;
+  text-shadow: 0 0 8px rgb(0, 0, 0);
+}
 
 /* RODAPE */
 
@@ -103,8 +171,8 @@ body {
 }
 
 .cor-rodape:hover{
-  color: red;
+  color: #ff0000;
   transition: 0.3s ease;
-  text-shadow: 0 0 8px red;
+  text-shadow: 0 0 8px #ff0000;
   text-decoration: none;
 }

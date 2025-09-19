@@ -3,28 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style/style.css"></link>
+    <link rel="stylesheet" type="text/css" href="style/calculadora.css"></link>
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
     <link rel="manifest" href="./favicon_io/site.webmanifest">
-    
     
     <title>Calculadora Crypto</title>
 </head>
 <body>
 <header class="cabecalho">
     <div class="logo-site-1">
-        <img src="/imagens/logo-site.png" alt="Logo" class="logo"> 
+        <img src="./imagens/logo-site.png" alt="Logo" class="logo"> 
         <h1 class="titulo">Crypto Pulse</h1>
     </div>
     
     <nav class="menu">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="calculadora.html" target="_blank">Calculadora</a></li>
-            <li><a href="historia.html" target="_blank">História</a></li>
-            <li><a href="duvidascrypto.html" target="_blank">Dúvidas Sobre Criptomoedas</a></li>
+            <li><a href="index.html" target="_self">Home</a></li>
+            <li><a href="calculadora.html" target="_self">Calculadora</a></li>
+            <li><a href="historia.html" target="_self">História</a></li>
+            <li><a href="duvidascrypto.html" target="_self">Dúvidas Sobre Criptomoedas</a></li>
         </ul>
     </nav>
     
@@ -36,7 +35,34 @@
 <link rel="stylesheet" type="text/css" href="./style/botao.css">
 <script src="./script/botao.js"></script>
 
+<div class="calculadora">
+  <h2>Conversor de Criptomoedas</h2>
 
+    <label for="crypto">Criptomoeda:</label>
+    <select id="crypto">
+        <option value="bitcoin">Bitcoin (BTC)</option>
+        <option value="ethereum">Ethereum (ETH)</option>
+        <option value="solana">Solana (SOL)</option>
+        <option value="binancecoin">Binance Coin (BNB)</option>
+        <option value="ripple">Ripple (XRP)</option>
+    </select>
+
+    <label for="moeda">Moeda:</label>
+    <select id="moeda">
+        <option value="usd">Dólar (USD)</option>
+        <option value="eur">Euro (EUR)</option>
+        <option value="brl">Real (BRL)</option>
+    </select>
+
+    <label for="amount">Quantidade:</label>    
+    <input type="number" id="amount" placeholder="Ex: 2">
+
+    <button id="converter">Converter</button>
+
+    <p id="resultado"></p>
+</div>
+
+    <script src="./script/calculadora.js"></script>
 
 <footer class="rodape">
     <p>Copyright &copy; 2025 - by Cauã Carrijo Gomes Silva <br/>
