@@ -10,7 +10,7 @@ body {
   background-color: #202021;
   color: #ffd700;
   text-align: center;
-  padding: 20px;
+  padding: 1vw;
   transition: .5s;
 }
 
@@ -82,7 +82,164 @@ body {
   text-shadow: 0 0 8px #ff0000;
 }
 
-/* BODY */
+/* HISTÓRIA */
+
+.titulo-historia {
+  font-family: 'FonteLogo';
+  text-align: center;
+  margin: 20px 0 30px 0;
+  transition: 0.5s ease;
+  color: #ffd700;
+  cursor: default;
+}
+
+.titulo-historia:hover {
+  color: #ffd700;
+  transition: 0.3s ease;
+  text-shadow: 0 0 8px #ffd700;
+  text-decoration: none;
+}
+
+/* PARAGRAFO 1 */
+
+.paragrafo-1 {
+  font-family: 'FonteLogo';
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 20px 0 0;
+  text-align: left;
+  margin-right: 100px;
+}
+
+b {
+  color: #ff0000;
+  font-family: 'FonteLogo';
+  transition: 0.3s ease;
+}
+
+b:hover {
+  color: #ff0000;
+  font-family: 'FonteLogo';
+  text-shadow: 0 0 10px #ff0000;
+  transition: 0.3s ease;
+}
+
+.negrito-cor {
+  color: #ffd700;
+  font-family: 'FonteLogo';
+  transition: 0.3s ease;
+}
+
+.negrito-cor:hover {
+  color: #ffd700;
+  text-shadow: 0 0 8px #ffd700;
+  font-family: 'FonteLogo';
+  transition: 0.3s ease;
+}
+
+
+.imagem-1 {
+  border: #ffb700 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+  max-width: 350px;
+  margin: 15px;
+}
+
+/* PARAGRAFO 2 */
+
+.paragrafo-2 {
+  font-family: 'FonteLogo';
+  color: aliceblue;
+  font-size: 25px;
+  padding: 10px 20px 0 0;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.imagem-2 {
+  border: #ffb700 solid;
+  display: flex;
+  flex-flow: column;
+  margin: 15px;
+  padding: 10px;
+  max-width: 400px;
+}
+
+.externo {
+  font-family: 'FonteLogo';
+  text-decoration: none;
+  color: #f1e702;
+  transition: 0.3s ease;
+}
+
+.externo:hover {
+  color: #f1e702;
+  text-shadow: 0 0 8px #ffd700;
+  transition: 0.3s ease;
+}
+
+.ethereum {
+  font-family: 'FonteLogo';
+  text-decoration: none;
+  color: #ae1af7;
+  transition: 0.3s ease;
+}
+
+.ethereum:hover {
+  color: #ae1af7;
+  text-shadow: 0 0 8px #ae1af7;
+  transition: 0.3s ease;
+}
+
+/* PARAGRAFO 3 */
+.paragrafo-3 {
+  font-family: 'FonteLogo';
+  color: aliceblue;
+  font-size: 25px;
+  padding: 10px 20px 0 0;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.imagem-3 {
+  border: #ffb700 solid;
+  display: flex;
+  flex-flow: column;
+  margin: 15px;
+  padding: 10px;
+  max-width: 500px;
+}
+
+.negrito-cor {
+  color: #ffd700;
+  font-family: 'FonteLogo';
+  transition: 0.3s ease;
+}
+
+.negrito-cor:hover {
+  color: #ffd700;
+  text-shadow: 0 0 8px #ffd700;
+  font-family: 'FonteLogo';
+  transition: 0.3s ease;
+}
+
+.negrito-cor2 {
+  color: #386fef;
+  font-family: 'FonteLogo';
+  transition: 0.3s ease;
+}
+
+.negrito-cor2:hover {
+  color: #386fef;
+  text-shadow: 0 0 8px #386fef;
+  font-family: 'FonteLogo';
+  transition: 0.3s ease;
+}
+
 
 /* RODAPE */
 
