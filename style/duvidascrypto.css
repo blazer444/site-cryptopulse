@@ -82,7 +82,67 @@ body {
   text-shadow: 0 0 8px #ff0000;
 }
 
-/* BODY */
+/* DUVIDAS CRYPTO */
+
+.titulo-duvida {
+  text-align: center;
+  margin: 20px 0 20px 0;
+  font-family: 'FonteLogo';
+  color:#f1e702;
+  transition: 0.3s ease;
+}
+
+.titulo-duvida:hover {
+  color:#f1e702;
+  text-shadow: 0 0 8px #f1e702;
+  transition: 0.3s ease;
+}
+
+/* CAIXA 1 */
+
+.pergunta {
+  background-color: rgb(238, 255, 0);
+  display: block;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.titulo-pergunta {
+  color:#ff0000;
+  font-family: 'FonteLogo';
+  font-size: medium;
+  padding: 14px;
+  text-shadow: 0 0 8px #ff0000
+}
+
+.caixa-resposta {
+  background-color: #5b5959;
+  border-bottom: 0px 0px 0px 0px solid;
+  box-shadow: 0px 0px 0px 2px rgba(59, 58, 58, 0.8);
+  border-radius: 20px;
+  margin: 2px 0 30px;
+  padding: 20px;
+}
+
+.paragrafo {
+  font-family: 'FonteLogo';
+  color: #ffffff;
+}
+
+b {
+  color: #ff0000;
+  font-family: 'FonteLogo';
+  transition: 0.3s ease;
+  text-shadow: 0 0 10px #ff0000;
+}
+
+.negrito-cor {
+  color: #ffd700;
+  font-family: 'FonteLogo';
+  text-shadow: 0 0 10px #ffd700;
+}
 
 /* RODAPE */
 

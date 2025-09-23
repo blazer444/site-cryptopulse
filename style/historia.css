@@ -171,12 +171,12 @@ b:hover {
 .externo {
   font-family: 'FonteLogo';
   text-decoration: none;
-  color: #f1e702;
+  color: #ffd700;
   transition: 0.3s ease;
 }
 
 .externo:hover {
-  color: #f1e702;
+  color: #ffd700;
   text-shadow: 0 0 8px #ffd700;
   transition: 0.3s ease;
 }
@@ -191,6 +191,20 @@ b:hover {
 .ethereum:hover {
   color: #ae1af7;
   text-shadow: 0 0 8px #ae1af7;
+  transition: 0.3s ease;
+}
+
+.altcoin {
+  color: #ff0000;
+  font-family: 'FonteLogo';
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.altcoin:hover {
+  color: #ff0000;
+  font-family: 'FonteLogo';
+  text-shadow: 0 0 10px #ff0000;
   transition: 0.3s ease;
 }
 
@@ -231,6 +245,7 @@ b:hover {
   color: #386fef;
   font-family: 'FonteLogo';
   transition: 0.3s ease;
+  text-decoration: none;
 }
 
 .negrito-cor2:hover {
