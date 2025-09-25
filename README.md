@@ -18,6 +18,8 @@ O sistema foi projetado em quatro áreas principais, organizadas em abas intuiti
 
 - Dashboard Interativo: Veja estatísticas em tempo real, incluindo variações de preço, volume negociado, capitalização e porcentagem de crescimento.
 
+*Os dados são atualizados em tempo real. A cada 10 em 10 Segundos*
+
 ## 2. Aba: Calculadora
 
 - A calculadora integrada utiliza a API da [Coin Gecko](https://www.coingecko.com/pt-br) para obter os valores atualizados das principais criptomoedas.
